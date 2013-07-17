@@ -19,7 +19,7 @@ body{
 	width: 65%;
     background: rgb(80,80,150);
     float: left;
-    border: 2px solid green;
+    border: 2px solid orange;
     box-shadow: 5px 5px 5px black;
 }
 #rightmain{
@@ -27,7 +27,7 @@ body{
     margin: 0 0% 0% 4%;
     background: rgb(80,80,150);
     float: left;
-    border: 2px solid green;
+    border: 2px solid orange;
     box-shadow: 5px 5px 5px black;
 }
 #bottom{
