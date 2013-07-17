@@ -1,0 +1,41 @@
+body{
+	background: blue url('../images/background.jpg');
+
+}
+.fullwidth{
+    width: 80%;
+    margin: 0 10% 0% 10%;
+    padding: 5%;
+    min-height: 50px;
+}
+#top{
+
+}
+#main{
+    width:90%;
+    margin: 0 0 0 0;
+}
+#leftmain{
+	width: 65%;
+    background: rgb(80,80,150);
+    float: left;
+    border: 2px solid green;
+    box-shadow: 5px 5px 5px black;
+}
+#rightmain{
+	width: 30%;
+    margin: 0 0% 0% 4%;
+    background: rgb(80,80,150);
+    float: left;
+    border: 2px solid green;
+    box-shadow: 5px 5px 5px black;
+}
+#bottom{
+    clear: left;
+	
+}
+@media (max-width:480){
+    .fullwidth{
+        width:100%;
+    }
+}
